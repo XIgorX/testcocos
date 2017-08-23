@@ -1,0 +1,212 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - DKImagePickerController (3.5.7):
+    - DKImagePickerController/Camera (= 3.5.7)
+    - DKImagePickerController/ImageManager (= 3.5.7)
+  - DKImagePickerController/Camera (3.5.7)
+  - DKImagePickerController/ImageManager (3.5.7)
+  - DropDownMenuKit (0.8.3)
+  - Emoji-swift (0.1.0)
+  - Fabric (1.6.12)
+  - FBSDKCoreKit (4.25.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.25.0):
+    - FBSDKCoreKit
+  - Firebase/Core (4.1.0):
+    - FirebaseAnalytics (= 4.0.3)
+    - FirebaseCore (= 4.0.5)
+  - Firebase/Messaging (4.1.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.1)
+  - FirebaseAnalytics (4.0.3):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.5):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.1):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FrostedSidebar (1.0.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GTProgressBar (0.2.0)
+  - HCSStarRatingView (1.4.5)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NSLogger/NoStrip (1.8.3):
+    - NSLogger/ObjC
+  - NSLogger/ObjC (1.8.3)
+  - Protobuf (3.4.0)
+  - PullToRefresher (2.0.2)
+  - ReachabilitySwift (3)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SMPageControl (1.2)
+  - SOCKit (1.1)
+  - Spring (1.0.3)
+  - SVProgressHUD (2.1.2)
+  - TextFieldEffects (1.3.3)
+  - TOCropViewController (2.0.12)
+  - TPKeyboardAvoiding (1.3.1)
+  - TransitionKit (2.2.1)
+  - TwitterCore (3.0.0)
+  - TwitterKit (3.1.0):
+    - TwitterCore (>= 3.0.0)
+  - UITextView+Placeholder (1.2.0)
+  - UPCarouselFlowLayout (1.1.1)
+  - WBSegmentControl (0.2.3)
+
+DEPENDENCIES:
+  - Charts
+  - Crashlytics
+  - DKImagePickerController
+  - DropDownMenuKit
+  - Emoji-swift
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - FrostedSidebar
+  - GTProgressBar (from `https://github.com/gregttn/GTProgressBar.git`)
+  - HCSStarRatingView (~> 1.4.5)
+  - JSQMessagesViewController
+  - MagicalRecord
+  - NSLogger/NoStrip
+  - PullToRefresher (~> 2.0)
+  - ReachabilitySwift
+  - RestKit (from `https://github.com/RestKit/RestKit.git`, commit `13d98d5a6a5e06656ad040013dcae149b7cf8b99`)
+  - SDWebImage
+  - SMPageControl
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SVProgressHUD
+  - TextFieldEffects
+  - TOCropViewController
+  - TPKeyboardAvoiding
+  - TwitterCore
+  - TwitterKit
+  - UITextView+Placeholder
+  - UPCarouselFlowLayout
+  - WBSegmentControl (~> 0.2.0)
+
+EXTERNAL SOURCES:
+  GTProgressBar:
+    :git: https://github.com/gregttn/GTProgressBar.git
+  RestKit:
+    :commit: 13d98d5a6a5e06656ad040013dcae149b7cf8b99
+    :git: https://github.com/RestKit/RestKit.git
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  GTProgressBar:
+    :commit: 1f47c11d3d833cf5467329ec2d8ea4ebb917c59d
+    :git: https://github.com/gregttn/GTProgressBar.git
+  RestKit:
+    :commit: 13d98d5a6a5e06656ad040013dcae149b7cf8b99
+    :git: https://github.com/RestKit/RestKit.git
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  DKImagePickerController: da5111f475c2fda9f932bab55519a43275bd4cf0
+  DropDownMenuKit: 76b304bc0a0d1f6822a58d19a116bce100752fba
+  Emoji-swift: 20010383183f4d85e6e5a2b9642b96ebdb4f06ae
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  FBSDKCoreKit: 53e3f4bfb64e80c5f229dd30ae33ff57fbbbd2d1
+  FBSDKLoginKit: f628c09684dae9c17f071cf90b014e886f5093ea
+  Firebase: ebebf41db7f10e0c7668b6eaaa857fbe599aa478
+  FirebaseAnalytics: 76f754d37ca5b04f36856729b6af3ca0152d1069
+  FirebaseCore: 7d876ea97a830cbe62ba7fbbe7670c833a324ba0
+  FirebaseInstanceID: 0500e3cb54a1a4e01a8cffcc09323b8bb8fc7e1e
+  FirebaseMessaging: b45ff9ef5d932600d3f78ff43168e7c5707aa7dc
+  FrostedSidebar: f86c6843cabd5d456f9234afb6eea22a7512532f
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTProgressBar: f05bb63f64c98f475f2a1dd9b9e5744dcaaa503d
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NSLogger: c9b80dbeee1d65eb553647a1f6f1f72171b04808
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  PullToRefresher: 5e101a8c3523e67ee0291375ba932ef59e0853c2
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RestKit: 9539fb2ca8cd53431a1fdc7f55bba4af3646cfa9
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
+  TOCropViewController: e6e31b38d785a901e5651a1e7fff71bcda6c5214
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  TwitterCore: 8ce250be1eb34633a0e6acc89520d4165ec52c10
+  TwitterKit: 21d0b22d67cb9a568cd8053972d0da7df2e0e9a0
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  UPCarouselFlowLayout: 02045c1505d63057fba3d9975be880a8d16bf17d
+  WBSegmentControl: c66bb255598413eea8306401d402ae67974267b2
+
+PODFILE CHECKSUM: 2e734b94bb3b331776cbf77bd31c35aba5f5782e
+
+COCOAPODS: 1.1.1
